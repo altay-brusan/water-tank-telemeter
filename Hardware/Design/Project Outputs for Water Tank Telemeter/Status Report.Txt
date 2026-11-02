@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Water Tank Telemeter.PrjPcb]
+   Generated File[Water Tank Telemeter.TXT]
+   Generated File[Water Tank Telemeter.LDP]
+   Generated File[Water Tank Telemeter.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 12:48:18 PM On 1/23/2021

@@ -1,0 +1,78 @@
+# ---------------------------------------------------------------
+# Secrets — never commit real credentials
+# ---------------------------------------------------------------
+Portal/includes/config.php
+.env
+*.env
+
+# ---------------------------------------------------------------
+# Firmware build output (STM32CubeIDE / Eclipse CDT)
+# ---------------------------------------------------------------
+**/Firmware/**/Debug/
+**/Firmware/**/Release/
+build/
+**/build/
+*.o
+*.d
+*.su
+*.elf
+*.map
+*.list
+*.lst
+*.hex
+*.bin
+*.srec
+*.cyclo
+# Release firmware images / archives are kept out of the public repository
+Hardware/Release/Firmware/*.bin
+Hardware/Release/Firmware/*.rar
+
+# Eclipse / CubeIDE workspace metadata
+.metadata/
+RemoteSystemsTempFiles/
+*.launch
+
+# ---------------------------------------------------------------
+# Altium Designer temporary / log files
+# ---------------------------------------------------------------
+History/
+**/History/
+__Previews/
+**/__Previews/
+Project Logs for */
+**/Project Logs for */
+*.~*
+*.$$$*
+*.bak
+*.Bak
+*.LOCK
+*.lck
+*.SchDocPreview
+*.PcbDocPreview
+*.DsnWrk
+*.PrjPcbSettings
+*.tmp
+*.temp
+
+# ---------------------------------------------------------------
+# Office temporary files
+# ---------------------------------------------------------------
+~$*
+
+# ---------------------------------------------------------------
+# OS files
+# ---------------------------------------------------------------
+desktop.ini
+Desktop.ini
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+.DS_Store
+._*
+
+# ---------------------------------------------------------------
+# Editors / IDEs
+# ---------------------------------------------------------------
+.vscode/
+.idea/
+*.swp

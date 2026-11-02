@@ -1,0 +1,13 @@
+Here describe all the things which have to be improved or done in the next revision.
+
+Schematic:
+The RS232 TRansiver (U11) GND is missing!!!
+
+PCB:
+The RS232 TRansiver (U11) GND is missing!!! In the next PCB add this missing connection
+
+Production:
+No action is required.
+
+Firmware:
+Firmware is underdevelopment in this print
